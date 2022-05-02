@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 设置的类别 -->
+    <PreferenceCategory
+        android:key="music_setting"
+        android:summary="背景音樂設定"
+        android:title="背景音樂設定">
+        <SwitchPreference
+            android:key="background_music"
+            android:summary=""
+            android:title="播放背景音樂"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
